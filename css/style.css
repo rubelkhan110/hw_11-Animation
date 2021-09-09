@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	 background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+}
+
+.jary{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: eee 7s infinite;
+	
+}
+	  
+	  .jary img{
+	  	width: 120px;
+	  	height: 120px;
+	  }
+
+ @keyframes eee {
+ 	0%{
+ 		top: 0;
+ 		left: 0;
+ 	}
+ 	25%{
+ 		top: 0;
+ 		left: 1150px;
+ 	}
+ 	50%{
+ 		top: 510px;
+ 		left: 1250px;
+ 	}
+ 	75%{
+ 		top: 510px;
+ 		left: 0px;
+ 	}
+ 	100%{
+ 		top: 0px;
+ 		left: 0px;
+ 	}
+ }
+	 .jary-1{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: eee 9s infinite;
+	
+}
+	  
+	  .jary-1 img{
+	  	width: 120px;
+	  	height: 120px;
+	  }
+
+ @keyframes eee {
+ 	0%{
+ 		top: 0;
+ 		left: 0;
+ 	}
+ 	25%{
+ 		top: 0;
+ 		left: 1200px;
+ 	}
+ 	50%{
+ 		top: 510px;
+ 		left: 1250px;
+ 	}
+ 	75%{
+ 		top: 510px;
+ 		left: 0px;
+ 	}
+ 	100%{
+ 		top: 0px;
+ 		left: 0px;
+ 	}
+ }
